@@ -34,7 +34,7 @@ import java.util.function.Function;
 /**
  * Represents a Keyring container which manages keyring
  */
-public class KeyringContainer {
+public class KeyringContainer implements IWallet<AbstractKeyring> {
     /**
      * The map where address and keyring are mapped
      */
