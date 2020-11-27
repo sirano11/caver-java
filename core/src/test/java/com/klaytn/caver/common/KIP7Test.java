@@ -58,8 +58,8 @@ public class KIP7Test {
         @Test
         public void name(){
             try {
-                String name1 = kip7contract.name();
-                assertEquals(CONTRACT_NAME, name1);
+                String name2 = kip7contract.name();
+                assertEquals(CONTRACT_NAME, name2);
             } catch (Exception e) {
                 e.printStackTrace();
                 fail();
